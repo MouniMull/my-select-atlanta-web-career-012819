@@ -1,4 +1,4 @@
 def my_select(collection)
-  new
- collection.select { |x| x.odd? 
+  new_array = []
+ collection.select { |x| x.odd? new_array << 
 end
