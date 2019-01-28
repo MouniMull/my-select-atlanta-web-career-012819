@@ -3,5 +3,7 @@ def my_select(collection)
  collection.select |x|
   x.odd? 
  yield(collection[x])
- return new_array
+ new_array << x 
+ end 
+ new_array
 end
