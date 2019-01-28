@@ -1,3 +1,3 @@
 def my_select(collection)
- collection.select { |x| x
+ collection.select { |x| x.odd? 
 end
